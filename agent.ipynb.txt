@@ -1,0 +1,76 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xe-ZZRxEai6g",
+        "outputId": "5d31e909-4a03-4521-e619-6d9961855b29"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "AI Sign Language Translator\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"AI Sign Language Translator\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "signs = {\n",
+        "    \"A\": \"Hello\",\n",
+        "    \"B\": \"Thank You\",\n",
+        "    \"C\": \"Help\"\n",
+        "}\n",
+        "\n",
+        "user_sign = input(\"Enter Sign (A/B/C): \")\n",
+        "\n",
+        "if user_sign in signs:\n",
+        "    print(\"Translation:\", signs[user_sign])\n",
+        "else:\n",
+        "    print(\"Sign not recognized\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Cz1qShWQa9LX",
+        "outputId": "3eb70753-487f-415a-a683-98e012a0ac6c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter Sign (A/B/C): A\n",
+            "Translation: Hello\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
